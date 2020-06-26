@@ -19,7 +19,15 @@ body{
 .header_left{
     margin: 10% 10% 0 10%;
     float: left;
+
 }
+
+@media (max-width: 991px){
+    .header_left{
+        width: 100%;
+        margin: 10% auto;
+        }
+    }
 
 .header_left p{
     margin: 4%;
@@ -59,7 +67,7 @@ body{
     margin-top: -25%;
 }
 @media (max-width: 991px){
-    .header_right img {
+    .header_right {
         display: none;
         }
     }
