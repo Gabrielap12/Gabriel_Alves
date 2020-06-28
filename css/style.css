@@ -1,3 +1,4 @@
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,24 +14,13 @@ body, html{
 
 .header{
     background-image: linear-gradient(to right, #0f0f0f , #282a29);
-    overflow: hidden;
+    overflow: auto;
 }
 
 .header_left{
     margin: 10% 10% 0 10%;
     float: left;
-
 }
-
-@media (max-width: 991px){
-    .header_left{
-        width: 100%;
-        margin: 10% auto;
-        }
-        .header_left button{
-            margin-left: 0%;
-        }
-    }
 
 .header_left p{
     margin: 4%;
@@ -61,6 +51,8 @@ button:hover{
 
 .header_right{
     width: 45%;
+    height: 100%;
+    overflow: hidden;
     float: left;
 }
 
@@ -69,10 +61,42 @@ button:hover{
     opacity: 0.7;
     margin-top: -25%;
 }
-@media (max-width: 991px){
+
+@media (max-width: 800px) {
+    
+    .header{
+        text-align: center;
+    }    
+    .header_left{
+        width: 100%;
+        margin: 50% auto;
+    }
+    
     .header_right{
         display: none;
-        }
+    }
+    
+    .header_left p{     
+        font-size: 40px;
+    }
+    
+    .header_left h1{
+        font-size: 96px;
+        font-weight: bolder;
+    }
+    
+    .header_left button{
+        color: #282a29;
+        text-decoration: none;
+        background: #FF7241;
+        padding: 3px 64px;
+        border-radius: 16px;
+        font-size: 32px;
+        margin-left: -1%;
+        font-weight: bolder;
+        border: none !important;
+    }
+    
     }
 
 /* Body -------------------------------------------------------------------------------------------------------------------------*/
@@ -86,12 +110,6 @@ button:hover{
     margin-top: -144px;
     width: 450px;
     height: 900px;
-}
-
-@media (max-width: 991px){
-.about_me img {
-    display: none;
-    }
 }
 
 .media-body p{
@@ -262,4 +280,3 @@ button:hover{
     color: #929090;
     font-size: 12px;
 }
-
