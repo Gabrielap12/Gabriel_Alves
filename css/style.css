@@ -57,6 +57,17 @@
     }
 
     /* Modal Header -------------------------------------------------------------------------------------------------------------------------*/
+    .title_certificate{
+        font-size: 20px;
+        text-transform: uppercase;
+    }    
+
+    .name_institution{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
     .img-modal{
         width: 100%;
         height: auto;  
@@ -88,15 +99,11 @@
         background-color: rgba(33, 33, 33, 0.95);
         font-family: Avenirnextltpro, sans-serif;
         color: #fff;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 15px;
+        text-align: center;
+        padding-top: 22%;
       }
-
-    .nome-equipe {
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-}
     
     .modal-content:hover .hover-modal {
     opacity: 0.3;
@@ -110,6 +117,11 @@
         padding-left: 0;
         list-style: none;
         margin: 0 2% 0 2%;
+    }
+
+    li:hover .hover-modal {
+        display: block;
+        opacity: 1;
     }
 
     li{
@@ -180,7 +192,7 @@
         color: #FF7241;
     }
     .about_me button{
-        margin: 5% 35%;
+        margin: 20% 33%;
         background: #FF7241;
         padding: 8px 80px;
         border-radius: 15px;
@@ -196,47 +208,85 @@
         border:none !important;
         color: #282a29 !important;
     }
-/* What_I_Do -------------------------------------------------------------------------------------------------------------------------*/
-.What_I_Do{
-    background: #0f0f0f;
-    padding-top: 3%;
-}
 
-.What_I_Do h1{
-margin-bottom: 2%;
-}
+    .btn_resume_mobile{
+        display: block;
+    }
 
-.what_i_do_topic{
-    background: rgba(128, 128, 128, 0.1);
-    width: 30%;
-    height: 200px;
-    float: left;
-    margin-right: 3%;
-    margin-bottom: 2%;
-    overflow: hidden;
-}
-.what_i_do_topic:hover{
-    border: 1px solid #fce8ce;
+    .btn_resume_desktop{
+        display: none;
+    }
+
+    .area_knowledge{
+        margin: 2% 0 0 0;
+        -webkit-box-shadow: 0px 0px 10px #ccc ; 
+        -moz-box-shadow: 0px 0px 10px #ccc ;
+        box-shadow: 0px 0px 10px #ccc ; 
+        height: 25%;
+        border-radius: 5px;
+        text-align: center;
+        padding: 3%;
+    }
+
+    .area_knowledge_design{
+        margin-top: 8%;
+    }
+
+    .area_knowledge h1{
+        font-size: 24px;
+        margin-bottom: 3%;
+    }
     
-}
-.what_i_do_topic img{
-    width: 70px;
-    overflow: hidden;
-    margin-left: 45%;
-    MARGIN-TOP: 5%;
-    margin-bottom: 10px;
-}
-.what_i_do_topic h2{
-    color: #fce8ce;
-    font-size: 18px;
-    text-align: center;
-    font-weight: bold;
-}
-.what_i_do_topic p{
-    color: #666666;
-    text-align: center;
-    font-size: 16px;
-}
+    .area_knowledge p{
+        font-size: 16px;
+        color: #666666;
+    }
+
+    .area_knowledge_totaly{
+        display: block;
+    }
+/* What_I_Do -------------------------------------------------------------------------------------------------------------------------*/
+    .What_I_Do{
+        background: #0f0f0f;
+        padding-top: 3%;
+    }
+
+    .What_I_Do h1{
+        margin-bottom: 2%;
+    }
+
+    .what_i_do_topic{
+        background: rgba(128, 128, 128, 0.1);
+        margin-bottom: 10%;
+        overflow: hidden;
+    }
+
+    .what_i_do_topic:hover{
+        border: 1px solid #fce8ce;
+    }
+
+    .what_i_do_topic img{
+        width: 70px;
+        overflow: hidden;
+        margin-left: 45%;
+        MARGIN-TOP: 5%;
+        margin-bottom: 10px;
+    }
+    .what_i_do_topic h2{
+        color: #fce8ce;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .what_i_do_topic p{
+        color: #666666;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .what_i_do_topic_mobile{
+        display: block;
+    }
 
 /* Footer -------------------------------------------------------------------------------------------------------------------------*/
 .footer{
@@ -320,7 +370,7 @@ margin-bottom: 2%;
     .header_left{
         width: auto;
         margin: 12% 16% 0 10%;
-        float: left;
+        float: left;    
     }
     
     .header_left p{
@@ -364,6 +414,20 @@ margin-bottom: 2%;
         margin-top: -7%;
     }
 /* Modal Header -------------------------------------------------------------------------------------------------------------------------*/
+    .title_certificate{
+        font-size: 13px;
+        line-height: 14px;
+        text-transform: uppercase;
+    }    
+
+    .name_institution{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 13px;
+        line-height: 14px;
+        font-weight: 500;
+    }
+
     .img-modal{
         width: 100%;
         height: auto;  
@@ -397,13 +461,10 @@ margin-bottom: 2%;
         color: #fff;
         font-size: 12px;
         line-height: 15px;
+        text-align: center;
+        padding-top: 18%;
       }
 
-    .nome-equipe {
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-}
     
     .modal-content:hover .hover-modal {
     opacity: 0.3;
@@ -430,8 +491,25 @@ margin-bottom: 2%;
         margin: 1%;
     }
 
+    li:hover .hover-modal {
+        display: block;
+        opacity: 1;
+    }
+
     .modal-lg, .modal-xl {
         max-width: 70%;
+    }
+
+    
+    .fecha-modal{
+        position: absolute;
+        left: auto;
+        top: 0%;
+        right: 0%;
+        bottom: auto;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
     }
 
 /* About_me -------------------------------------------------------------------------------------------------------------------------*/
@@ -516,6 +594,18 @@ margin-bottom: 2%;
         background: #fce8ce;
     }
 
+    .btn_resume_mobile{
+        display: none;
+    }
+
+    .btn_resume_desktop{
+        display: block;
+    }
+
+    .area_knowledge_totaly{
+        display: none;
+    }
+
 /* What_I_Do -------------------------------------------------------------------------------------------------------------------------*/
     .What_I_Do{
         background: #0f0f0f;
@@ -539,7 +629,7 @@ margin-bottom: 2%;
         width: 70px;
         height: 62px;
         overflow: hidden;
-        margin-left: 40%;
+        margin-left: 38%;
         MARGIN-TOP: 5%;
         margin-bottom: 10px;
     }
@@ -553,6 +643,10 @@ margin-bottom: 2%;
         color: #666666;
         text-align: center;
         font-size: 12.6px;
+    }
+
+    .what_i_do_topic_mobile{
+        display: none;
     }
 /* Footer -------------------------------------------------------------------------------------------------------------------------*/
 .footer{
