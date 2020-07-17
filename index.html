@@ -118,11 +118,11 @@
                     </div>
                     
                     <div class="col-md-3 col-lg-3 area_knowledge">
-                        <img src="image/QA_Areas_knowledeg.jpg" class="img-fluid">
+                        <img src="image/QA.png" class="img-fluid">
                     </div>
 
                     <div class="col-md-3 col-lg-3 area_knowledge">
-                        <img src="image/QA_Areas_knowledeg.jpg" class="img-fluid">
+                        <img src="image/teste2.png" class="img-fluid">
                     </div>
 
                     <div class="col-md-9 col-lg-9 area_knowledge area_knowledge_design">
@@ -185,33 +185,27 @@
 <div class="footer w-100 h-auto">
     <div class="footer container w-100 h-auto">
         <h1>Get in touch with me</h1>
-            <form class="needs-validation" novalidate>
+            <form class="needs-validation">
                 <div class="form-row">
                     <div class="col-md-6 mb-3">
                         <label for="validationTooltip01">Name</label>
-                        <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
-                        <div class="valid-tooltip">
-                            Looks good!
-                        </div>
+                        <input type="text" class="form-control" id="validationTooltip01" placeholder="Your name.." onblur="inputName()" required>
+                        <div id="valid-name"></div>
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="validationTooltip02">Email</label>
-                        <input type="email" class="form-control" id="validationTooltip02" value="Otto" required>
-                        <div class="valid-tooltip">
-                            Looks good!
-                        </div>
+                        <input type="email" class="form-control" id="validationTooltip02" placeholder="Your email.." onblur="inputEmail()" required>
+                        <div id="valid-email"></div>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="col-md-12 mb-3">
-                        <label for="validationTooltip03">City</label>
-                        <input type="textarea" class="form-control" id="validationTooltip03" required>
-                        <div class="invalid-tooltip">
-                            Please provide a valid city.
-                        </div>
+                        <label for="validationTooltip03">Menssage</label>
+                        <input type="textarea" class="form-control" id="validationTooltip03" placeholder="Write a menssage for me.." onblur="inputMenssage()" required>
+                        <div id="valid-menssage"></div>
                     </div>
                 </div>
-                <button class="btn btn-primary" type="submit">Submit form</button>
+                <button class="btn btn-primary" id="btn_form" onclick="sendEmail()" >Submit form</button>
             </form>
         </div>
         <nav class="navbar navbar-expand-md">
@@ -304,7 +298,7 @@
           </div>
 
 
-
+        <script src="https://smtpjs.com/v3/smtp.js"></script>  
         <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/js.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
