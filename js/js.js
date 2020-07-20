@@ -55,9 +55,8 @@ function sendEmail() {
 	var emailForm = document.getElementById('validationTooltip02');
 	var menssageForm = document.getElementById('validationTooltip03');
 
-	if(nameForm.value != "" || emailForm.value != "" || menssageForm.value != ""){
+	if(nameForm.value != "" && emailForm.value != "" && menssageForm.value != ""){
 		alert("mail sent successfully")
-	}
 
 	Email.send({
 		Host: "smtp.gmail.com",
@@ -70,6 +69,7 @@ function sendEmail() {
 	})
 	.then(function(message){
 
-	});}
+    });}
+}
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------
