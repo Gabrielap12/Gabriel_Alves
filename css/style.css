@@ -1,323 +1,71 @@
-/* Start Mobile -------------------------------------------------------------------------------------------------------------------------*/
-@media (min-width: 768px) { 
-    *{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    body, html{
-        margin: 0px;
-        padding: 0px;
-        background-image: linear-gradient(to right, #282a29 , #202120);
-        color:#fce8ce;
-        width: 100%;
-        height: 100%;
-    }
-
-/* Header -------------------------------------------------------------------------------------------------------------------------*/
-    .header{
-        background-image: linear-gradient(to right, #0f0f0f , #282a29);
-        overflow: auto;
-    }
-    .header{
-        text-align: center;
-    }    
-    .header_left{
-        width: 100%;
-        margin: 50% auto;
-    }
-    
-    .header_right{
-        display: none;
-    }
-    
-    .header_left p{     
-        font-size: 40px;
-        margin: 8%;
-    }
-    
-    .header_left h1{
-        font-size: 104px;
-        font-weight: bolder;
-    }
-    
-    .header_left button{
-        color: #282a29;
-        text-decoration: none;
-        background: #FF7241;
-        padding: 3px 64px;
-        border-radius: 16px;
-        font-size: 32px;
-        margin-left: 0;
-        font-weight: bolder;
-        border: none;
-    }
-    .img-modal{
-        width: 45%;
-        float: left;
-    }
-
-    /* Modal Header -------------------------------------------------------------------------------------------------------------------------*/
-    .title_certificate{
-        font-size: 20px;
-        text-transform: uppercase;
-    }    
-
-    .name_institution{
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 18px;
-    }
-
-    .img-modal{
-        width: 100%;
-        height: auto;  
-    }
-
-    .hover-modal {
-        position: absolute;
-        left: 0%;
-        top: 0%;
-        right: 0%;
-        bottom: 0%;
-        display: none;
-        width: 100%;
-        height: 100%;
-        padding: 20px 10px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        background-color: rgba(33, 33, 33, 0.95);
-        font-family: Avenirnextltpro, sans-serif;
-        color: #fff;
-        font-size: 15px;
-        line-height: 15px;
-        text-align: center;
-        padding-top: 22%;
-      }
-    
-    .modal-content:hover .hover-modal {
-    opacity: 0.3;
-    }
-    
-    .modal-content:hover .hover-modal {
-    opacity: 1;
-    }
-      
-    ul{
-        padding-left: 0;
-        list-style: none;
-        margin: 0 2% 0 2%;
-    }
-
-    li:hover .hover-modal {
-        display: block;
-        opacity: 1;
-    }
-
-    li{
-        list-style-type: none;
-        position: relative;
-        width: 100%;
-        float: left;
-        height: auto;
-        margin-bottom: 1%;
-    }
-
-    
-/* About_me -------------------------------------------------------------------------------------------------------------------------*/
-    .about_me{   
-        padding-top: 8%;
-    }
-
-    .container-fluid{
-        max-width: 720px;
-    }
-
-    .image_about_me{
-        display: none;
-    }
-
-    .sub_title{
-        color: #fce8ce;
-        margin-bottom: 6px;
-        font-size: 24px;
-    }
-
-    .title{
-        color: #fce8ce;
-        font-size: 48px;
-    }
-    .descrition_body{
-        color: #666666;
-        font-size: 17;
-    }
-    .expecs{
-        width: 100%;
-        height: auto;
-        margin-top: 6%;
-    }
-    .expecs_detailes{
-        color: white;
-        margin: 2%;
-        width: 28%;
-        text-align: center;
-        float: left;
-        border-radius: 5px;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 10px #ccc ; 
-        -moz-box-shadow: 0px 0px 10px #ccc ;
-        box-shadow: 0px 0px 10px #ccc ; 
-    }
-    .expecs_detailes p{
-        color: white;
-        font-size: 16px;
-        padding: 0px;
-        margin: 4%;;
-    }
-    .none{
-        display: none;
-    }
-    .starShow{
-        color: #FF7241;
-    }
-    .about_me button{
-        margin: 20% 33%;
-        background: #FF7241;
-        padding: 8px 80px;
-        border-radius: 15px;
-        font-size: 16px;
-        font-weight: bolder;
-    }
-    .about_me button:hover{
-        background: #fce8ce;
-    }
-
-    .about_me button a{
-        text-decoration: none;
-        border:none !important;
-        color: #282a29 !important;
-    }
-
-    .btn_resume_mobile{
-        display: block;
-    }
-
-    .btn_resume_desktop{
-        display: none;
-    }
-
-    .area_knowledge{
-        margin: 2% 0 0 0;
-        -webkit-box-shadow: 0px 0px 10px #ccc ; 
-        -moz-box-shadow: 0px 0px 10px #ccc ;
-        box-shadow: 0px 0px 10px #ccc ; 
-        height: 25%;
-        border-radius: 5px;
-        text-align: center;
-        padding: 3%;
-    }
-
-    .area_knowledge_design{
-        margin-top: 8%;
-    }
-
-    .area_knowledge h1{
-        font-size: 24px;
-        margin-bottom: 3%;
-    }
-    
-    .area_knowledge p{
-        font-size: 16px;
-        color: #666666;
-    }
-
-    .area_knowledge_totaly{
-        display: block;
-    }
-/* What_I_Do -------------------------------------------------------------------------------------------------------------------------*/
-    .What_I_Do{
-        background: #0f0f0f;
-        padding-top: 3%;
-    }
-
-    .What_I_Do h1{
-        margin-bottom: 2%;
-    }
-
-    .what_i_do_topic{
-        background: rgba(128, 128, 128, 0.1);
-        margin-bottom: 10%;
-        overflow: hidden;
-    }
-
-    .what_i_do_topic:hover{
-        border: 1px solid #fce8ce;
-    }
-
-    .what_i_do_topic img{
-        width: 70px;
-        overflow: hidden;
-        margin-left: 45%;
-        MARGIN-TOP: 5%;
-        margin-bottom: 10px;
-    }
-    .what_i_do_topic h2{
-        color: #fce8ce;
-        font-size: 18px;
-        text-align: center;
-        font-weight: bold;
-    }
-    .what_i_do_topic p{
-        color: #666666;
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .what_i_do_topic_mobile{
-        display: block;
-    }
-
-/* Footer -------------------------------------------------------------------------------------------------------------------------*/
-.footer{
-    background: #313840;
-    color: #929090;
-    padding: 3% 0;
-}
-.footer h1{
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 4%;
-}
-.needs-validation{
-    margin: 0 12%;
-}
-.nav-item2{
-    color: #929090 !important;
-}
-.sub_footer1{
-    background-color: #313840; 
-    padding-left: 4%;
-    float: left;
+body, html{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right, #0f0f0f , #282a29);
+    color:#fce8ce;
     width: 100%;
+    height: 100%;
 }
 
-.needs-validation button{
-    color: #929090;
-    background-color: transparent;
-    border-color: #929090;
-    font-size: 21px;
-    margin: 0px 34%;
+.home{
+    height: auto;
+    overflow: hidden;
+}
+
+.btn{
+    color: #282a29;
+    text-decoration: none;
+    background: #FF7241;
+    font-weight: bolder;
+    border: none;
+}
+
+.btn:hover{
+    color:#FF7241;
+    background: #fce8ce;
+}
+
+.home img{
+    opacity: 0.5;
+}
+
+.orange{
+    color:#FF7241;
+}
+
+.grey{
+    color: #666666;
+    font-size: 14px;
+}
+
+.expecs_detailes{
+    color: white;
+    margin: 2%;
+    width: 18%;
+    text-align: center;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px #ccc ; 
+       -moz-box-shadow: 0px 0px 10px #ccc ;
+            box-shadow: 0px 0px 10px #ccc ; 
+}
+
+.btn_resume{
+    text-align: center;
+}
+
+.what_i_do_topic{
+    background: rgba(128, 128, 128, 0.1);
+    height: auto;
+    padding: 1%;
+    text-align: center;
+
+}
+.what_i_do_topic:hover{
+    border: 1px solid #fce8ce;
+    
 }
 
 .form-control{
@@ -326,381 +74,184 @@
     border: 1px solid transparent;
     width: 100% !important;
 }
-.direita{
-    margin-left: 2%;
-}
-.w-inline-block{
-   left: 2%;
-    float: left;
-}   
-#redes{
-    float: left;
-}
-.desc_footer{
-    color: #929090;
-    font-size: 12px;
-    margin: 3%;
-}
- }
 
-/* Finish Mobile -------------------------------------------------------------------------------------------------------------------------*/
-
-/* Start Desktop -------------------------------------------------------------------------------------------------------------------------*/
- @media (min-width: 1200px) { 
-    
-    *{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    body, html{
-        margin: 0px;
-        padding: 0px;
-        background: #282a29;
-        color:#fce8ce;
-        width: 100%;
-        height: 100%;
-    }
-
-/* Header -------------------------------------------------------------------------------------------------------------------------*/
-    .header{
-        background-image: linear-gradient(to right, #0f0f0f , #282a29);
-        overflow: auto;
-    }
-    
-    .header_left{
-        width: auto;
-        margin: 12% 16% 0 10%;
-        float: left;    
-    }
-    
-    .header_left p{
-        margin: 4%;
-        margin-left: 0;
-        font-size: 16px;
-    }
-    .header_left h1{
-        font-size: 64px;
-        font-weight: bolder;
-    }
-    
-    .header_left button{
-        color: #282a29;
-        text-decoration: none;
-        background: #FF7241;
-        padding: 3px 35px;
-        border-radius: 15px;
-        font-size: 16px;
-        margin-left: 1%;
-        font-weight: bolder;
-        border:none;
-    }
-    
-    button:hover{
-        color:#FF7241;
-        background: #fce8ce;
-    }
-    
-    .header_right{
-        width: 40%;
-        height: 100%;
-        overflow: hidden;
-        float: left;
-        display: grid;
-    }   
-    
-    .header_right img{
-        width: 100%;
-        opacity: 0.9;
-        margin-top: -7%;
-    }
 /* Modal Header -------------------------------------------------------------------------------------------------------------------------*/
-    .title_certificate{
-        font-size: 13px;
-        line-height: 14px;
-        text-transform: uppercase;
-    }    
+.title_certificate{
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: uppercase;
+}    
 
-    .name_institution{
-        margin-top: 5px;
-        margin-bottom: 10px;
-        font-size: 13px;
-        line-height: 14px;
-        font-weight: 500;
-    }
-
-    .img-modal{
-        width: 100%;
-        height: auto;  
-    }
-
-    .hover-modal {
-        position: absolute;
-        left: 0%;
-        top: 0%;
-        right: 0%;
-        bottom: 0%;
-        display: none;
-        width: 100%;
-        height: 100%;
-        padding: 20px 10px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        background-color: rgba(33, 33, 33, 0.95);
-        font-family: Avenirnextltpro, sans-serif;
-        color: #fff;
-        font-size: 12px;
-        line-height: 15px;
-        text-align: center;
-        padding-top: 18%;
-      }
-
-    
-    .modal-content:hover .hover-modal {
-    opacity: 0.3;
-    }
-    
-    .modal-content:hover .hover-modal {
-    opacity: 1;
-    }
-      
-    ul{
-        padding-left: 0;
-        list-style: none;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-right: -4%;
-    }
-
-    li{
-        list-style-type: none;
-        position: relative;
-        width: 46%;
-        float: left;
-        height: auto;
-        margin: 1%;
-    }
-
-    li:hover .hover-modal {
-        display: block;
-        opacity: 1;
-    }
-
-    .modal-lg, .modal-xl {
-        max-width: 70%;
-    }
-
-    
-    .fecha-modal{
-        position: absolute;
-        left: auto;
-        top: 0%;
-        right: 0%;
-        bottom: auto;
-        width: 60px;
-        height: 60px;
-        cursor: pointer;
-    }
-
-/* About_me -------------------------------------------------------------------------------------------------------------------------*/
-    .about_me{    
-        padding-top: 3%;
-        overflow: hidden;
-    }
-
-    .container-fluid{
-        max-width: 100%;
-    }
-
-    .image_about_me{
-        width: 120%;
-        display: block;
-        right: 0;
-        position: absolute;
-    }
-    
-    .sub_title{
-        color: #fce8ce;
-        margin-bottom: 0;
-        font-size: 16px;
-    }
-    
-    .title{
-        color: #fce8ce;
-        font-size: 2.3em;
-        margin-bottom: 1%;
-    }
-    .descrition_body{
-        color: #666666;
-        font-size: 12.6px;
-    }
-    .expecs{
-        width: 100%;
-        height: 200px;    
-        margin-top: 2%;
-    }
-    .expecs_detailes{
-        color: white;
-        margin: 2%;
-        width: 18%;
-        text-align: center;
-        float: left;
-        border-radius: 5px;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-    
-        -webkit-box-shadow: 0px 0px 10px #ccc ; 
-           -moz-box-shadow: 0px 0px 10px #ccc ;
-                box-shadow: 0px 0px 10px #ccc ; 
-    }
-    .expecs_detailes p{
-        color: white;
-        font-size: 15px;
-        padding: 0;
-        margin: 3px;
-    }
-    .none{
-        display: none;
-    }
-    .starShow{
-        color: #FF7241;
-    }
-    .about_me button{
-        margin: 5% 39%;
-        background: #FF7241;
-        padding: 3px 35px;
-        border-radius: 15px;
-        font-size: 15px;
-        font-weight: bolder;
-    }
-
-    .about_me button a{
-        text-decoration: none;
-        border:none !important;
-        color: #282a29 !important;
-    }
-
-    .about_me button:hover{
-        background: #fce8ce;
-    }
-
-    .btn_resume_mobile{
-        display: none;
-    }
-
-    .btn_resume_desktop{
-        display: block;
-    }
-
-    .area_knowledge_totaly{
-        display: none;
-    }
-
-/* What_I_Do -------------------------------------------------------------------------------------------------------------------------*/
-    .What_I_Do{
-        background: #0f0f0f;
-        padding-top: 1%;
-    }
-
-    .what_i_do_topic{
-        background: rgba(128, 128, 128, 0.1);
-        width: 30%;
-        height: 200px;
-        float: left;
-        margin-right: 3%;
-        margin-bottom: 2%;
-        overflow: hidden;
-    }
-    .what_i_do_topic:hover{
-        border: 1px solid #fce8ce;
-        
-    }
-    .what_i_do_topic img{
-        width: 70px;
-        height: 62px;
-        overflow: hidden;
-        margin-left: 38%;
-        MARGIN-TOP: 5%;
-        margin-bottom: 10px;
-    }
-    .what_i_do_topic h2{
-        color: #fce8ce;
-        font-size: 18px;
-        text-align: center;
-        font-weight: bold;
-    }
-    .what_i_do_topic p{
-        color: #666666;
-        text-align: center;
-        font-size: 12.6px;
-    }
-
-    .what_i_do_topic_mobile{
-        display: none;
-    }
-/* Footer -------------------------------------------------------------------------------------------------------------------------*/
-.footer{
-    background: #313840;
-    color: #929090;
-    padding: 3% 0;
+.name_institution{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 500;
 }
-.footer h1{
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 4%;
-}
-.needs-validation{
-    margin: 0 12%;
-}
-.nav-item2{
-    color: #929090 !important;
-}
-.sub_footer1{
-    background-color: #313840; 
-    padding-left: 4%;
-    float: left;
+
+.img-modal{
     width: 100%;
+    height: auto;  
 }
 
-.needs-validation button{
-    color: #929090;
-    background-color: transparent;
-    border-color: #929090;
-    font-size: 21px;
-    margin: 0px 41%;
-}
-
-.form-control{
-    background-color: transparent;
-    border-bottom: 1px solid #929090 !important;
-    border: 1px solid transparent;
-    width: 100% !important;
-}
-.direita{
-    margin-left: 2%;
-}
-.w-inline-block{
-   left: 2%;
-    float: left;
-}   
-#redes{
-    float: left;
-}
-.desc_footer{
-    color: #929090;
+.hover-modal {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgba(33, 33, 33, 0.95);
+    font-family: Avenirnextltpro, sans-serif;
+    color: #fff;
     font-size: 12px;
-    margin: 3%;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 18%;
+  }
+
+
+.modal-content:hover .hover-modal {
+opacity: 0.3;
 }
 
- }
- /* Finish Desktop -------------------------------------------------------------------------------------------------------------------------*/
+.modal-content:hover .hover-modal {
+opacity: 1;
+}
+  
+ul{
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: -4%;
+}
+
+li{
+    list-style-type: none;
+    position: relative;
+    width: 46%;
+    float: left;
+    height: auto;
+    margin: 1%;
+}
+
+li:hover .hover-modal {
+    display: block;
+    opacity: 1;
+}
+
+.modal-lg, .modal-xl {
+    max-width: 70%;
+}
+
+.fecha-modal{
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) { 
+
+.home_mobile{
+    margin-top: 40%;
+}
+
+.title_certificate{
+    font-size: 14px;
+    text-transform: uppercase;
+}    
+
+.name_institution{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.img-modal{
+    width: 100%;
+    height: auto;  
+}
+
+.hover-modal {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgba(33, 33, 33, 0.95);
+    font-family: Avenirnextltpro, sans-serif;
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 14%;
+}
+
+.modal-content:hover .hover-modal {
+    opacity: 0.3;
+}
+
+.modal-content:hover .hover-modal {
+    opacity: 1;
+}
+    
+ul{
+    padding-left: 0;
+    list-style: none;
+    margin: 0 2% 0 2%;
+}
+
+li:hover .hover-modal {
+    display: block;
+    opacity: 1;
+}
+
+li{
+    list-style-type: none;
+    position: relative;
+    width: 100%;
+    float: left;
+    height: auto;
+    margin-bottom: 1%;
+}
+}
